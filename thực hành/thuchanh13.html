@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>su dung Box model</title>
+</head>
+<body>
+    <div class="boxmodel">
+        <p id="boxmodel1">mo hinh hop trong css ve cow ban la mot hop bao quanh phan tu HTML
+            No bao gom: le (magin), vien(boder), phan dem(padding), va noi dung(content)
+        </p>
+        <p id="boxdodel2">mo hinh trong css ve co ban la mot hop bao quanh phan tu HTML
+            No bao gom: le (magin), vien(boder), phan dem(padding), va noi dung(content)  
+        </p>
+        <p id="boxdodel3">mo hinh trong css ve co ban la mot hop bao quanh phan tu HTML
+            No bao gom: le (magin), vien(boder), phan dem(padding), va noi dung(content)  
+        </p>
+    </div>
+    <style>
+        .boxmodel{
+            margin: 0 auto;
+            width: 800px;
+            border: 10px;
+            padding: 10px;
+            border-color: chartreuse aqua blue blueviolet;
+            border-style: solid;
+        }
+        .boxmodel p{
+            border: 3px dotted darkred ;
+            padding: 10px;
+        }
+        #boxmodel1{
+            margin-bottom: 20px;
+        }
+        #boxmodel2{
+            margin-bottom: 40px;
+        }
+        #boxmodel3{
+            margin-bottom: 0px;
+        }
+    </style>
+</body>
+</html>

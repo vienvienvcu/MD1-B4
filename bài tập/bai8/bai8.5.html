@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web có phần thanh toán</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="box">
+                <div class="title">
+                    <h1>price details</h1>
+                </div>
+                <div class="details">
+                    <div class="text">
+                        <p>fx Passenger</p>
+                        <p>$350</p>
+                    </div>  
+                </div>
+                <div class="details">
+                    <div class="text">
+                        <p>Tax and fee</p>
+                        <p>$2</p>
+                    </div>   
+                </div>
+                <div class="details">
+                    <div class="text">
+                        <p>service free</p>
+                        <p>$8</p>
+                    </div>
+                </div>
+                <div class="details total">
+                    <div class="text">
+                        <p>Total</p>
+                        <p>$360</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="title">
+                    <h1>price details</h1>
+                </div>
+                <div class="details">
+                    <div class="text">
+                        <p>fx aduit 2 children</p>
+                    </div>    
+                </div>
+            </div>
+            <div class="box">
+                <div class="title">
+                    <h1>check-in-baggage</h1>
+                </div>
+                <div class="details">
+                    <div class="text">
+                        <p>depature</p>
+                        <p>3 bags(120g tatal)</p>
+                    </div>  
+                </div>   
+                <div class="details">
+                    <div class="text">
+                        <p>return</p>
+                        <p>3 bags(120g tatal)</p>
+                    </div>    
+                </div>
+            </div>
+            <div class="box">
+                <div class="title">
+                    <h1>services</h1>
+                </div>
+                <div class="details">
+                    <div class="text">
+                        <p>No extra services selected</p>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            border: 1px solid rgb(165, 165, 165);
+            padding: 20px;
+            width: 580px;
+        }
+        .card{
+            box-shadow: 5px 5px 20px 5px rgb(231, 231, 231);
+            padding: 40px 40px;
+            border-radius: 10px;
+        }
+        .box{
+            border-bottom: 1px solid rgb(232, 225, 225);
+            margin-bottom: 20px;
+            
+        }
+        .title{
+            text-transform: capitalize;
+            margin-bottom: 16px;
+        }
+        .details{
+            padding: 16px 0 ;
+        }
+        .details.total{
+            background-color: rgb(193, 215, 245);
+            border-radius: 10px;
+        }
+        .details.total:hover{
+            background-color:  rgb(5, 94, 167);
+            color: aliceblue;
+        }
+       .text{
+        display: flex;
+        justify-content: space-between;
+       }
+       .text p{
+        font-size: 18px;
+        text-transform: capitalize;
+        margin: 0 10px;
+       }
+    </style>
+    
+</body>
+</html>

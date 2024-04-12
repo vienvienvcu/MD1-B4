@@ -1,0 +1,42 @@
+/* dinh dang phan tu from */
+.form{
+    border: 1px solid rgb(206, 206, 206);
+    width: fit-content;
+    width: 600px;
+    margin: 0 auto;
+}
+form {
+    margin: 20px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+h1{
+    text-align: center;
+}
+ /* dinh dang phan tu input */
+ label{
+    margin-bottom: 10px;
+    font-weight: bolder;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ textarea{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+ }
+ input[type="submit"]{
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+ }

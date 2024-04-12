@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    border: 1px solid rgb(85, 85, 85);
+    width: fit-content;
+    padding: 10px 16px;
+    margin: 0 auto;
+    background-color: rgb(247, 239, 230);
+   
+}
+h1{
+    margin-bottom: 20px;
+    /* font-size: 30px; */
+}
+p {
+    margin-bottom: 16px ;
+    text-align: left ;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+span{
+   color: blue;
+   border-bottom: 1px solid blue;
+
+
+}

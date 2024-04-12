@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo trạng đăng kí</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1> Dang ki tai khoan</h1>
+            <div class="text">
+                <form>
+                  <div class="control">
+                        <div class="list">
+                          <label for="fullname">Ho va Ten:</label>
+                            <input type="text" id="fullname" name="fullname" required/>
+                        </div>
+                        <div class="list">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required/>
+                        </div>
+                        <div class="list">
+                           <label for="password">Mat khau:</label>
+                            <input type="password" id="password" name="password" required/>
+                        </div>
+                        <div class="list">
+                            <label for="password">Xac nhan lai mat khau:</label>
+                             <input type="password" id="password" name="password" required/>
+                         </div>
+                        
+                        <div class="btn">
+                            <button>Dang ky</button>
+                        </div>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+ <style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+    .container{
+       width: 100%;
+       /* max-width: 500px; */
+       height: 100vh;
+       /* border: 1px solid rgb(196, 196, 196); */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      
+    }
+    
+    .main{
+        width: 50%;
+        height: 80vh;
+        background-color: rgb(245, 243, 241);
+        padding: 40px;
+        /* width: fit-content; */
+      
+    }
+    .main h1{
+        margin-bottom: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+    
+    form{
+        background-color: rgb(248, 224, 192);
+        /* box-shadow: 5px 5px 10px 5px#aaaaaa;  */
+        border-radius: 5px;
+        padding: 20px;
+    }
+    .list{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .list label{
+        width: 100%;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    .list input{
+        width: 100%;
+        margin-top: 10px;
+        padding: 12px 20px;
+        opacity: 0.3;
+        border: none;
+        border-radius: 6px;
+    }
+    .list textarea{
+        width: 100%;
+        resize: none;
+        opacity: 0.3;
+        border-radius: 6px;
+    }
+    .list button{
+        border: none;
+        text-decoration: none;
+        padding: 3px 6px;
+
+    }
+    button:hover{
+        border: 1px solid rgb(120, 119, 119);
+    }
+    .btn button{
+        border: none;
+        background-color: rgb(22, 131, 209);
+        padding: 6px 12px;
+        color: white;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+    
+    </style>
+    
+</body>
+</html>
